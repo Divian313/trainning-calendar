@@ -1,0 +1,14 @@
+@import "./setting";
+
+body {
+  line-height: 14px;
+  font-size: 14px;
+}
+
+.trello-master {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 50px 1fr;
+
+  background-color: $board-bg-color;
+}
